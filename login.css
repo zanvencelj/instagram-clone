@@ -1,0 +1,53 @@
+.body>.container {
+    display: flex;
+    gap: 28px;
+    margin: 150px auto;
+    width: 630px;
+}
+
+#logo {
+    display: block;
+    height: 50px;
+    margin: 40px auto;
+}
+
+form>input {
+    display: block;
+    padding: 9px 7px;
+    width: 100%;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form>button {
+    padding: 7px;
+    width: 100%;
+    background-color: #3498db;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-style: bold;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+form>button:hover {
+    background-color: #2980b9;
+}
+
+.desno {
+    background-color: white;
+    border: solid lightgray 1px;
+    padding: 40px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+}
